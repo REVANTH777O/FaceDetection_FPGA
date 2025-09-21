@@ -1,0 +1,36 @@
+# Import libraries
+import numpy as np
+from PIL import Image
+from google.colab import files
+
+# Upload your out.hex file
+uploaded = files.upload()
+
+# Get the uploaded filename
+hex_file = list(uploaded.keys())[0]
+
+# Parameters
+IMG_WIDTH = 64
+IMG_HEIGHT = 64
+
+# Load hex data (base 16)
+data = np.genfromtxt(hex_file, dtype=np.uint8, converters={0: lambda x: int(x,16)})
+
+# Flatten in case of multiple columns
+data = data.flatten()
+
+# Reshape to 64x64 image
+img_array = data.reshape((IMG_HEIGHT, IMG_WIDTH))
+
+# If threshold outputs 0/1, scale to 0/255
+img_array = img_array * 255
+
+# Convert to image
+img = Image.fromarray(img_array)
+
+# Save and display
+output_image = "output.png"
+img.save(output_image)
+img.show()
+
+print(f"✅ Processed image saved as {output_image}")
