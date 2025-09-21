@@ -31,7 +31,7 @@
 
 This project implements a **64×64 face image preprocessing pipeline on FPGA** using **Verilog HDL**. The pipeline performs:
 
-- Grayscale image processing (if needed)
+- Grayscale image processing 
 - **Sobel edge detection**
 - Thresholding to produce binary edge images
 
