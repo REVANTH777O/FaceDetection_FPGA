@@ -167,7 +167,7 @@ Edge = \sqrt{Gx^2 + Gy^2}
 ### Step 1: Generate Input Hex
 python scripts/generate_image_hex.py
 
-###Step 2: FPGA Simulation
+### Step 2: FPGA Simulation
 
 Open Vivado → create project → add verilog/ files → run tb_face_preprocess.v
 OR use Colab notebook for simulation.
