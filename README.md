@@ -24,7 +24,6 @@
 8. [License](#license)
 
 ---
-
 ## Project Overview
 This project implements a **64×64 face image preprocessing pipeline on FPGA** using **Verilog HDL**. The pipeline performs:
 
