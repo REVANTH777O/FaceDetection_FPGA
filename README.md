@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
-
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
