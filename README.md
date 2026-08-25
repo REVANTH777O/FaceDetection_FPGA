@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 [![Verilog](https://img.shields.io/badge/Verilog-FPGA-red)](https://www.xilinx.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 ---
 ## Table of Contents
 
