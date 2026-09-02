@@ -46,7 +46,6 @@ Preprocessing images on FPGA is crucial for:
 This project demonstrates a complete **hardware-software co-design approach** from **Verilog RTL** to image reconstruction using **hex files**.
 
 ---
-
 ## Repository Structure
 
 FaceDetection_FPGA/
